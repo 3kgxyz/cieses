@@ -1,0 +1,219 @@
+        /* Removal */
+
+#aHolder,
+.endAHolder,
+#topRightAdHolder,
+#merchImg,
+#onetrust-consent-sdk,
+#braveWarning,
+#newsHolder,
+#streamContainer,
+#newUserGuide,
+#krDiscountAd,
+#updateAd, 
+#editorBtnM,
+.verticalSeparator,
+.terms.standout,
+.verticalSeparatorInline,
+.terms,
+#termsInfo,
+.menuWindowSideL,
+.windowHeader,
+.menuSocialB,
+#menuBtnProfile,
+#menuBtnShop,
+#menuBtnChall,
+#menuBtnSocial, 
+#menuBtnMaps,
+#menuBtnMods,
+#menuBtnSettings,
+#mainLogo,
+#freeKRAd,
+#rankedBlog,
+#doubleXPAd,
+#seasonLabel,
+#menuClassNameTag,
+#doubleClassXPAd,
+#mainLogoFace,
+.menuItem[onclick$="showWindow(49)"],
+#tlInfHold,
+#ammoIcon,
+#bottomLeftChallIcon,
+#timerIcon,
+.weapKey, 
+.weapStreak, 
+.weapSkin,
+.weapStreakHolder {
+    display : none !important;
+}
+
+        /* Useless General Gray Shit */
+
+.greyInner, .greyInlineInner {
+    background-color: transparent !important;
+   
+}
+
+
+        /* Health Shit */
+
+#bottomLeftHolder {
+    visibility: hidden !important;
+}
+
+
+#bottomLeftHealthBar {
+    position: fixed;
+	background-color: transparent;
+	width: 250px;
+	height: 33px;
+   	bottom: 25px;
+   	left: 120px;
+   	visibility: visible !important;
+}
+
+#bottomLeftHealth {
+	background-color: transparent;
+   	visibility: visible !important;
+	position: fixed;
+	bottom: 73px;
+	left: 135px;
+	font-size: 30px;
+}
+
+
+.nHealthBarSeg {
+    width: 40px !important;
+    display: inline-block !important;
+    border-radius: 5px !important;
+    margin-right: 4px !important;
+    height: 48px !important;
+    background-color: rgba(0, 0, 0, .4) !important;
+}
+
+.nHpBSeg {
+    height: 48px !important;
+    border-radius: 5px !important;
+    -webkit-box-shadow: inset 0 -10px 0 0 rgba(0, 0, 0, .28) !important;
+    -moz-box-shadow: inset 0 -10px 0 0 rgba(0, 0, 0, .28) !important;
+    box-shadow: inset 0 -10px 0 0 rgba(0, 0, 0, .28) !important
+}
+
+
+        /* Hud Icon Shit */
+
+/*Hud Icon*/
+#bottomLeftClassImg {
+    content: var(--image);
+    width: 120%;
+    height: 120%;
+    visibility: visible !important;
+}
+
+
+        /* Weapon Shit */
+
+#ammoHolder {
+	background-color: transparent;
+}
+
+.weapItemInner, .weapItem {
+    background-color: transparent;
+    transform: translate(5px, 0px);
+}
+
+
+        /* Timer Shit */
+
+#timerInner.topLeftOld, #timerHolder.topLeftOld {
+	background-color: transparent;
+    transform: translate(-4px, 0px);
+}
+
+
+        /* Leader Shit */
+
+#leaderContainer, #leaderboardHolder {
+    background-color: transparent
+}
+
+        /* Counters Shit */
+
+.statIcon {
+    background-color: transparent;
+}
+
+        /* MatchInfo Shit */
+
+#topLeftBottom::after {
+    content: var(--Watermark);
+	font-size:35px;
+    color: #000000;
+}
+
+#topLeftBottom {
+    transform: translate(7px, -60px);
+}
+
+#matchInfo {
+	visibility: hidden !important;
+}
+
+        /* Name Shit */
+
+.endTableN[style="color:#fff"],
+.leaderNameM,
+.newLeaderNameM,
+#menuAccountUsername,
+.menuClassPlayerName {
+    font-size: 0px;
+}
+
+.endTableN[style="color:#fff"]::after,
+.leaderNameM:after,
+.newLeaderNameM:after,
+#menuAccountUsername::after,
+.menuClassPlayerName::after {
+    content: var(--name);
+}
+
+.newLeaderNameM:after,
+#menuAccountUsername::after,
+.menuClassPlayerName::after {
+    font-size: 15px;
+}
+
+.endTableN[style="color:#fff"] {
+    visibility: hidden;
+}
+.endTableN[style="color:#fff"]::after { 
+    font-size: 20px !important;
+    visibility: visible;
+    text-transform: var(--text-transform);
+}
+.leaderNameM:after {
+    font-size: 18px;
+}
+
+.leaderNameM::before,
+#menuAccountUsername::before,
+.menuClassPlayerName::before,
+.newLeaderNameM::before,
+.endTableN:visited::before {
+    font-family : 'Material Icons';
+    font-weight : normal;
+    font-style : normal;
+    font-size : 23.8px;;
+    letter-spacing : normal;
+    text-transform : none;
+    display : inline-block;
+    white-space : nowrap;
+    overflow-wrap : normal;
+    direction : ltr;
+    content : "check_circle " !important;
+    color : #40C4FF !important;
+    vertical-align : baseline;
+    margin-right : 3px;
+    margin-left : -4px;
+    visibility: visible !important;
+}
