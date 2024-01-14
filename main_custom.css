@@ -1,5 +1,3 @@
-        /* Removal */
-
 #aHolder,
 .endAHolder,
 #topRightAdHolder,
@@ -46,22 +44,14 @@
 .weapStreakHolder {
     display : none !important;
 }
-
-        /* Useless General Gray Shit */
-
 .greyInner, .greyInlineInner {
     background-color: transparent !important;
    
 }
-
-
-        /* Health Shit */
-
+/*hp*/
 #bottomLeftHolder {
     visibility: hidden !important;
 }
-
-
 #bottomLeftHealthBar {
     position: fixed;
 	background-color: transparent;
@@ -71,7 +61,6 @@
    	left: 120px;
    	visibility: visible !important;
 }
-
 #bottomLeftHealth {
 	background-color: transparent;
    	visibility: visible !important;
@@ -80,8 +69,6 @@
 	left: 135px;
 	font-size: 30px;
 }
-
-
 .nHealthBarSeg {
     width: 40px !important;
     display: inline-block !important;
@@ -98,21 +85,14 @@
     -moz-box-shadow: inset 0 -10px 0 0 rgba(0, 0, 0, .28) !important;
     box-shadow: inset 0 -10px 0 0 rgba(0, 0, 0, .28) !important
 }
-
-
-        /* Hud Icon Shit */
-
-/*Hud Icon*/
+/*pfp*/
 #bottomLeftClassImg {
     content: var(--image);
     width: 120%;
     height: 120%;
     visibility: visible !important;
 }
-
-
-        /* Weapon Shit */
-
+/*ammo*/
 #ammoHolder {
 	background-color: transparent;
 }
@@ -121,30 +101,20 @@
     background-color: transparent;
     transform: translate(5px, 0px);
 }
-
-
-        /* Timer Shit */
-
+/*timer*/
 #timerInner.topLeftOld, #timerHolder.topLeftOld {
 	background-color: transparent;
     transform: translate(-4px, 0px);
 }
-
-
-        /* Leader Shit */
-
+/*lb*/
 #leaderContainer, #leaderboardHolder {
     background-color: transparent
 }
-
-        /* Counters Shit */
-
+/*conters*/
 .statIcon {
     background-color: transparent;
 }
-
-        /* MatchInfo Shit */
-
+/*toptxt*/
 #topLeftBottom::after {
     content: var(--Watermark);
 	font-size:35px;
@@ -158,9 +128,7 @@
 #matchInfo {
 	visibility: hidden !important;
 }
-
-        /* Name Shit */
-
+/*namechanger + verification*/
 .endTableN[style="color:#fff"],
 .leaderNameM,
 .newLeaderNameM,
